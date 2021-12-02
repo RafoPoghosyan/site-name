@@ -1,0 +1,20 @@
+.all-info-container > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-title {
+    font-family: InterRegular,sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(244, 245, 247, 1);
+    margin: 64px 0 24px;
+}
+
+.info-title-pieces {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(238, 239, 244, 1);
+    font-family: InterRegular,sans-serif;
+    margin-bottom: 12px;
+}

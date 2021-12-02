@@ -1,0 +1,88 @@
+.dashboard-container {
+    display: flex;
+
+}
+
+.dashboard-left-side {
+    max-width: 320px;
+    background-color: rgba(251, 251, 251, 1);
+    padding-top: 115px;
+    min-height: 100vh;
+    width: 100%;
+
+
+}
+
+.dashboard-logo {
+    max-width: 207px;
+    margin: 0 auto 115px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-logo > span {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 33px;
+    line-height: 50px;
+    color: rgba(0, 48, 46, 1);
+    margin-left: 22px;
+
+}
+
+.logo-img-content {
+    max-width: 57px;
+}
+
+.dashboard-list-container {
+    max-width: 268px;
+    margin: auto;
+}
+
+.dashboard-right-side {
+    width: 100%;
+}
+
+.right-side-container {
+    max-width: 1000px;
+    margin: 139px auto 0;
+
+}
+
+.dashboard-profile-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-text {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 23px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 1);
+}
+
+.meal-craving-text {
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.69);
+    margin-top: 4px;
+}
+
+.profile-img-container {
+    max-width: 50px;
+}
+
+.products-part {
+    margin-top: 53px;
+    display: grid;
+    grid-template-columns:repeat(3,minmax(max-content,240px));
+    grid-gap: 68px;
+    justify-content: space-between;
+
+}

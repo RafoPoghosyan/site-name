@@ -1,0 +1,69 @@
+
+.your-cart-container {
+    max-width: 650px;
+    margin: 56px auto 57px;
+}
+
+.your-cart-container > span {
+    color: rgba(0, 48, 46, 1);
+    font-size: 17px;
+    font-family: PoppinsSemiBold, sans-serif;
+    line-height: 33px;
+    padding: 0 20px;
+
+}
+
+.your-cart-title {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    justify-content: space-between;
+    font-family: PoppinsMedium, sans-serif;
+    font-size: 13px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.69);
+    margin: 24px 15px 0;
+}
+
+.price-qty-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(20%, max-content));
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+.price-qty-container > span:first-child{
+    text-align: center;
+}
+
+.total-price {
+    margin-top: 93px;
+    text-align: right;
+}
+
+.total-text {
+    margin-right: 26px;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+}
+
+.total-price-text {
+    color: rgba(0, 48, 46, 1);
+    font-family: PoppinsBold, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+}
+
+.checkout-btn {
+    margin: 40px auto 0;
+    max-width: 479px;
+    background-color: rgba(0, 48, 46, 1);
+    color: rgba(243, 194, 148, 1);
+    padding: 17px 0;
+    text-align: center;
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    cursor: pointer;
+
+}

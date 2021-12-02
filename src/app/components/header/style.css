@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1204px;
+
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-container > span {
+    font-family: PoppinsBold, sans-serif;
+    margin-left: 13px;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+
+.logo-icon {
+    max-width: 57px;
+
+}
+
+.nav-list {
+    list-style: none;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 21px;
+    font-family: PoppinsMedium, sans-serif;
+    align-items: center;
+
+}
+
+.nav-list li:nth-child(2) {
+    margin: 0 45px;
+    cursor: pointer;
+}
+
+.nav-list button {
+    font-size: 17px;
+    padding: 10px 38px;
+    background-color: #E2B887;
+    border-radius: 7px;
+    color: #00302E;
+    cursor: pointer;
+    border: none;
+
+}

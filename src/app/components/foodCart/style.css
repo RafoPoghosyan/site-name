@@ -1,0 +1,63 @@
+.food-cart-container {
+    max-width: 240px;
+    border: 0.3px solid rgba(0, 48, 46, 0.14);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.food-info-container {
+    max-width: 172px;
+    margin: 47px auto 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.food-name {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    margin-top: 13px;
+}
+
+.food-description {
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 11px;
+    line-height: 21px;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.69);
+}
+.food-img {
+    max-width: 90px;
+
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 23px;
+    max-width: 200px;
+}
+
+.price-container div:nth-child(1) {
+    font-family: PoppinsBold,sans-serif;
+    font-size: 13px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 1);
+}
+
+.price-container div:nth-child(2) {
+    font-family: PoppinsMedium,sans-serif;
+    font-size: 13px;
+    line-height: 33px;
+    color: rgba(6, 231, 117, 1);
+
+
+}
+

@@ -1,0 +1,38 @@
+.login-container {
+    display: grid;
+    grid-template-columns: 53% 47%;
+
+}
+
+.login-left-img {
+    background: url("../../../assets/images/loginImg.png") no-repeat;
+    background-size: 100%;
+    max-width: 764px;
+    height: 900px;
+}
+
+.login-fields {
+    max-width: 488px;
+    margin: 278px auto 0;
+    width: 100%;
+    display: grid;
+
+}
+
+.login-welcome {
+    text-align: center;
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 27px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.forgot-password {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.91);
+}

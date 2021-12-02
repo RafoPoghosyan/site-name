@@ -1,0 +1,26 @@
+.meals-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.meal-img {
+    max-width: 250px;
+}
+.meal-name {
+    color: rgba(251, 221, 187, 1);
+    font-family: PoppinsMedium,sans-serif;
+    font-size: 27px;
+    line-height: 33px;
+    margin: 35px 0 14px;
+}
+
+.meal-description {
+    font-family: PoppinsRegular,sans-serif;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.83);
+    margin: 0;
+    text-align: center;
+}

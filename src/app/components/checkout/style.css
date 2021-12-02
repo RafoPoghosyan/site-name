@@ -1,0 +1,38 @@
+.checkout-container {
+    max-width: 488px;
+    margin: 176px auto 65px;
+
+}
+
+.checkout-container > span {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+    color:  rgba(0, 48, 46, 1);
+
+}
+
+
+.checkout-inputs-container {
+    display: grid;
+    grid-gap: 47px;
+    margin-top: 33px;
+}
+
+.checkout-inputs-container > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.checkout-container > button {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    border: none;
+    color: rgba(243, 194, 148, 1);
+    background: rgba(0, 48, 46, 1);
+    padding: 17px;
+    text-align: center;
+    width: 100%;
+    margin-top: 108px;
+}

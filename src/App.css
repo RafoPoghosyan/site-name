@@ -1,0 +1,86 @@
+* {
+
+    box-sizing: border-box;
+    /*box-shadow: 0 0 3px red;*/
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.btn-highlight-hidden {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input-fields {
+    border: 1px solid rgba(251, 221, 187, 0.51);
+    padding: 19px 0 19px 25px;
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.53);
+    background: rgba(255, 255, 255, 0.83);
+    width: 100%;
+}
+
+.errorAlert {
+    color: #E80B0B !important;
+    text-align: left !important;
+    padding: 4px 0 0 4px;
+    font-size: 13px;
+}
+
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(./app/assets/fonts/Poppins/Poppins_Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url('./app/assets/fonts/Poppins/Poppins_SemiBold.ttf');
+}
+
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(./app/assets/fonts/Poppins/Poppins_Medium.ttf);
+}
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(./app/assets/fonts/Poppins/Poppins_Regular.ttf);
+}
+
+@font-face {
+    font-family: RubikRegular;
+    src: url("./app/assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: RubikMedium;
+    src: url('./app/assets/fonts/Rubik/Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url('./app/assets/fonts/Inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url('./app/assets/fonts/Roboto/Roboto-Medium.ttf');
+}

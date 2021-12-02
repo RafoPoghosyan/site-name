@@ -1,0 +1,60 @@
+.list-container {
+    display: flex;
+    align-items: center;
+    padding: 13px 0 13px 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.list-text {
+    font-family: PoppinsRegular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.active {
+    background-color: rgba(239, 239, 239, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 12px;
+
+}
+
+.not-active {
+    color: rgba(112, 112, 112, 1);
+}
+
+
+.list-icon-style {
+    max-width: 24px;
+    margin-right: 15px;
+
+}
+.filter-black {
+    filter:  brightness(2) invert(1);
+}
+
+.filter-gray {
+    filter: contrast(0);
+    opacity: 0.6;
+}
+
+.list-text-style {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.selected-foods {
+    max-width: 24px;
+    width: 100%;
+    text-align: center;
+    background-color: #F3C294;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    font-family: RobotoMedium,sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 3px 0;
+    margin-right: 15px;
+}

@@ -1,0 +1,78 @@
+.food-cart-details-container {
+    max-width: 450px;
+    margin: 132px auto 113px;
+
+}
+.food-cart-details-container > p {
+    color: #00302E;
+}
+
+.details-food-img {
+    max-width: 230px;
+    margin: auto;
+
+}
+
+.details-food-name {
+
+    margin: 28px auto 0;
+    text-align: center;
+}
+
+.details-description {
+    line-height: 27px;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.details-order-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+    color: rgba(0, 48, 46, 1);
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 17px;
+    line-height: 33px;
+}
+
+.order-add-container {
+    margin-top: 51px;
+    display: grid;
+    grid-template-columns:repeat(2,minmax(max-content,144px));
+    grid-gap: 50px;
+    justify-content: space-between;
+}
+
+.order-count-container {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+.order-count-container > *{
+    max-width: 48px;
+    color: rgba(0, 48, 46, 1);
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 31px;
+    line-height: 27px;
+    padding: 16px 0;
+    text-align: center;
+}
+.order-count-container > div {
+    background-color: rgba(243, 194, 148, 1);
+    cursor: pointer;
+}
+
+.details-add-btn {
+    background-color: rgba(0, 48, 46, 1);
+    color: rgba(251, 251, 251, 1);
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,127 @@
+.main-container {
+    background-color: #00302E;
+    padding-top: 59px;
+}
+
+.home-article {
+    padding: 0 20px;
+}
+
+.sections-container {
+    max-width: 1204px;
+    margin: auto;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+.order-container {
+    display: grid;
+    grid-template-columns: 54% 33%;
+    grid-gap: 50px;
+    margin-top: 161px;
+    justify-content: space-between;
+}
+
+.left-order-context {
+    max-width: 650px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: PoppinsRegular, sans-serif;
+    line-height: 77px;
+}
+
+.left-order-context > p {
+    font-size: 18px;
+    line-height: 33px;
+    font-family: PoppinsRegular, sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.download-icon-container {
+    display: flex;
+}
+
+.app-download-icon {
+    max-width: 135px;
+    margin-right: 13px;
+}
+
+.top-pasta-image {
+    max-width: 400px;
+}
+
+h2 {
+    font-family: PoppinsMedium, sans-serif;
+    font-size: 36px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.meals-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 21% 21% 21%;
+    justify-content: space-between;
+    margin-top: 208px;
+}
+
+.get-notified-container {
+    display: grid;
+    grid-template-columns: 45% 42%;
+    grid-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 270px;
+}
+
+.get-notified-left-side {
+    max-width: 549px;
+}
+
+.get-notified-container span {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 36px;
+    line-height: 33px;
+    color: rgba(251, 221, 187, 1)
+}
+
+.get-notified-container p {
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 33px;
+    font-family: PoppinsRegular, sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.get-notified-email {
+    padding: 15px 84px 15px 15px;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(178, 178, 178, 1);
+    font-family: RubikRegular, sans-serif;
+    border-radius: 5px;
+    border: none;
+    margin-right: 8px;
+}
+
+.get-notified-btn {
+    padding: 15px 40px;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: RubikRegular, sans-serif;
+    color: rgba(0, 48, 46, 1);
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(251, 221, 187, 1);
+}
+
+
+
+
