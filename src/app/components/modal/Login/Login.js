@@ -1,15 +1,15 @@
 import './style.css';
 import React  from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 
 
 function Login() {
 
-    let navigate = useNavigate();
+    let navigate = useHistory();
 
     const toDashboard = () => {
-        navigate('/dashboard')
+        navigate.push('/food/dashboard')
 
 
     }
