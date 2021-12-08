@@ -6,12 +6,14 @@ import Dashboard from "./app/pages/dashboard/Dashboard";
 
 function App() {
   return (
-                <Switch>
-                    <Route exact path='/food' component={Home} />
-                    <Route exact path='/food/dashboard' component={Dashboard}/>
-                </Switch>
-
-
+        <Switch>
+            <Route exact path='/'>
+                <Home/>
+            </Route>
+            <Route exact path='/dashboard' >
+                <Dashboard/>
+            </Route>
+        </Switch>
   );
 }
 

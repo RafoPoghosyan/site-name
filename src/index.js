@@ -8,7 +8,7 @@ import {HashRouter } from  'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-      <HashRouter basemname={`/${process.env.PUBLIC_URL}`}>
+      <HashRouter>
           <PassingContentItem>
               <App />
           </PassingContentItem>
