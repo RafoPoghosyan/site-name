@@ -8,7 +8,7 @@ function App() {
   return (
 
             <Routes>
-                <Route exact path={'/home'} element={<Home/>} />
+                <Route exact path={'/food'} element={<Home/>} />
                 <Route exact path={'/dashboard'} element={<Dashboard/>}/>
             </Routes>
 
