@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PassingContentItem from "./app/components/context/AuthContext";
-import {BrowserRouter as Router} from  'react-router-dom';
+import {BrowserRouter } from  'react-router-dom';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <Router basemname={`/${process.env.PUBLIC_URL}`}>
+      <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
           <PassingContentItem>
               <App />
           </PassingContentItem>
-      </Router>
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

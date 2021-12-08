@@ -9,7 +9,7 @@ function Login() {
     let navigate = useHistory();
 
     const toDashboard = () => {
-        navigate.push('/food/dashboard')
+        navigate.push('/dashboard');
 
 
     }

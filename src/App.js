@@ -7,8 +7,8 @@ import Dashboard from "./app/pages/dashboard/Dashboard";
 function App() {
   return (
                 <Switch>
-                    <Route exact path='/food' component={Home} />
-                    <Route exact path='/food/dashboard' component={Dashboard}/>
+                    <Route exact path='/' component={Home} />
+                    <Route exact path='/dashboard' component={Dashboard}/>
                 </Switch>
 
 
