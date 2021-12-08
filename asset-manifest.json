@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/site-name/static/css/main.b7435d23.chunk.css",
+    "main.js": "/site-name/static/js/main.89f8ba4b.chunk.js",
+    "main.js.map": "/site-name/static/js/main.89f8ba4b.chunk.js.map",
+    "runtime-main.js": "/site-name/static/js/runtime-main.aff9dd58.js",
+    "runtime-main.js.map": "/site-name/static/js/runtime-main.aff9dd58.js.map",
+    "static/js/2.6d730525.chunk.js": "/site-name/static/js/2.6d730525.chunk.js",
+    "static/js/2.6d730525.chunk.js.map": "/site-name/static/js/2.6d730525.chunk.js.map",
+    "static/js/3.818b77f7.chunk.js": "/site-name/static/js/3.818b77f7.chunk.js",
+    "static/js/3.818b77f7.chunk.js.map": "/site-name/static/js/3.818b77f7.chunk.js.map",
+    "index.html": "/site-name/index.html",
+    "static/css/main.b7435d23.chunk.css.map": "/site-name/static/css/main.b7435d23.chunk.css.map",
+    "static/js/2.6d730525.chunk.js.LICENSE.txt": "/site-name/static/js/2.6d730525.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/site-name/static/media/Rubik-Regular.da39336c.ttf",
+    "static/media/burgerImg.21bcc765.png": "/site-name/static/media/burgerImg.21bcc765.png",
+    "static/media/style.css": "/site-name/static/media/signUpImg.b3808754.png",
+    "static/media/mealImg.ec0557fc.png": "/site-name/static/media/mealImg.ec0557fc.png",
+    "static/media/pancakeImg.1bfd41b4.png": "/site-name/static/media/pancakeImg.1bfd41b4.png",
+    "static/media/pastaImg.34ab4cb5.png": "/site-name/static/media/pastaImg.34ab4cb5.png",
+    "static/media/profileImg.ac3ad77f.png": "/site-name/static/media/profileImg.ac3ad77f.png",
+    "static/media/soupImg.425e86a2.png": "/site-name/static/media/soupImg.425e86a2.png",
+    "static/media/topPastaImage.1ee60042.png": "/site-name/static/media/topPastaImage.1ee60042.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aff9dd58.js",
+    "static/js/2.6d730525.chunk.js",
+    "static/css/main.b7435d23.chunk.css",
+    "static/js/main.89f8ba4b.chunk.js"
+  ]
+}
