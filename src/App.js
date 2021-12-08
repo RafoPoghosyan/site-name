@@ -8,7 +8,7 @@ function App() {
   return (
         <BrowserRouter>
             <Routes>
-                <Route exact path={process.env.PUBLIC_URL + '/'} element={<Home/>} />
+                <Route exact path={process.env.PUBLIC_URL + '/food'} element={<Home/>} />
                 <Route exact path={process.env.PUBLIC_URL + '/food/dashboard'} element={<Dashboard/>}/>
             </Routes>
         </BrowserRouter>
