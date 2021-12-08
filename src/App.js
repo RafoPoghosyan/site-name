@@ -6,10 +6,12 @@ import Dashboard from "./app/pages/dashboard/Dashboard";
 
 function App() {
   return (
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
-                <Route exact path='/' element={<Home/>} />
-                <Route exact path='/dashboard' element={<Dashboard/>}/>
+                <Route exact path='/food' element={<Home/>} />
+                <Route exact path='/food/dashboard' element={<Dashboard/>}/>
             </Routes>
+        </BrowserRouter>
   );
 }
 
